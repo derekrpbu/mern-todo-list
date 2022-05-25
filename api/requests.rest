@@ -1,0 +1,18 @@
+GET http://localhost:3001/todos
+
+###
+
+POST http://localhost:3001/todos/new
+Content-Type: application/json
+
+{
+    "text": "Estudiar"
+}
+
+###
+
+DELETE http://localhost:3001/todos/delete/6269c976b1fa38d2de0755cf
+
+###
+
+GET http://localhost:3001/todos/complete/6269c9861edd04cfcd1dc2c5
